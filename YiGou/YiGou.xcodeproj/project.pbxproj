@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC198D1225F25C500C57349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC198D0225F25C500C57349 /* AppDelegate.swift */; };
+		FBC198D3225F25C500C57349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC198D2225F25C500C57349 /* ViewController.swift */; };
+		FBC198D6225F25C500C57349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC198D4225F25C500C57349 /* Main.storyboard */; };
+		FBC198D9225F25C500C57349 /* YiGou.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC198D7225F25C500C57349 /* YiGou.xcdatamodeld */; };
+		FBC198DB225F25C700C57349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC198DA225F25C700C57349 /* Assets.xcassets */; };
+		FBC198DE225F25C700C57349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC198DC225F25C700C57349 /* LaunchScreen.storyboard */; };
+		FBC198E9225F25C700C57349 /* YiGouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC198E8225F25C700C57349 /* YiGouTests.swift */; };
+		FBC198F4225F25C700C57349 /* YiGouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC198F3225F25C700C57349 /* YiGouUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC198E5225F25C700C57349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC198C5225F25C500C57349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC198CC225F25C500C57349;
+			remoteInfo = YiGou;
+		};
+		FBC198F0225F25C700C57349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC198C5225F25C500C57349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC198CC225F25C500C57349;
+			remoteInfo = YiGou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBC198CD225F25C500C57349 /* YiGou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiGou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC198D0225F25C500C57349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC198D2225F25C500C57349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBC198D5225F25C500C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC198D8225F25C500C57349 /* YiGou.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YiGou.xcdatamodel; sourceTree = "<group>"; };
+		FBC198DA225F25C700C57349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC198DD225F25C700C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC198DF225F25C700C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC198E4225F25C700C57349 /* YiGouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiGouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC198E8225F25C700C57349 /* YiGouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiGouTests.swift; sourceTree = "<group>"; };
+		FBC198EA225F25C700C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC198EF225F25C700C57349 /* YiGouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiGouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC198F3225F25C700C57349 /* YiGouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiGouUITests.swift; sourceTree = "<group>"; };
+		FBC198F5225F25C700C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC198CA225F25C500C57349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC198E1225F25C700C57349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC198EC225F25C700C57349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC198C4225F25C500C57349 = {
+			isa = PBXGroup;
+			children = (
+				FBC198CF225F25C500C57349 /* YiGou */,
+				FBC198E7225F25C700C57349 /* YiGouTests */,
+				FBC198F2225F25C700C57349 /* YiGouUITests */,
+				FBC198CE225F25C500C57349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC198CE225F25C500C57349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC198CD225F25C500C57349 /* YiGou.app */,
+				FBC198E4225F25C700C57349 /* YiGouTests.xctest */,
+				FBC198EF225F25C700C57349 /* YiGouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC198CF225F25C500C57349 /* YiGou */ = {
+			isa = PBXGroup;
+			children = (
+				FBC198D0225F25C500C57349 /* AppDelegate.swift */,
+				FBC198D2225F25C500C57349 /* ViewController.swift */,
+				FBC198D4225F25C500C57349 /* Main.storyboard */,
+				FBC198DA225F25C700C57349 /* Assets.xcassets */,
+				FBC198DC225F25C700C57349 /* LaunchScreen.storyboard */,
+				FBC198DF225F25C700C57349 /* Info.plist */,
+				FBC198D7225F25C500C57349 /* YiGou.xcdatamodeld */,
+			);
+			path = YiGou;
+			sourceTree = "<group>";
+		};
+		FBC198E7225F25C700C57349 /* YiGouTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC198E8225F25C700C57349 /* YiGouTests.swift */,
+				FBC198EA225F25C700C57349 /* Info.plist */,
+			);
+			path = YiGouTests;
+			sourceTree = "<group>";
+		};
+		FBC198F2225F25C700C57349 /* YiGouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC198F3225F25C700C57349 /* YiGouUITests.swift */,
+				FBC198F5225F25C700C57349 /* Info.plist */,
+			);
+			path = YiGouUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC198CC225F25C500C57349 /* YiGou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC198F8225F25C700C57349 /* Build configuration list for PBXNativeTarget "YiGou" */;
+			buildPhases = (
+				FBC198C9225F25C500C57349 /* Sources */,
+				FBC198CA225F25C500C57349 /* Frameworks */,
+				FBC198CB225F25C500C57349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiGou;
+			productName = YiGou;
+			productReference = FBC198CD225F25C500C57349 /* YiGou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC198E3225F25C700C57349 /* YiGouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC198FB225F25C700C57349 /* Build configuration list for PBXNativeTarget "YiGouTests" */;
+			buildPhases = (
+				FBC198E0225F25C700C57349 /* Sources */,
+				FBC198E1225F25C700C57349 /* Frameworks */,
+				FBC198E2225F25C700C57349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC198E6225F25C700C57349 /* PBXTargetDependency */,
+			);
+			name = YiGouTests;
+			productName = YiGouTests;
+			productReference = FBC198E4225F25C700C57349 /* YiGouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBC198EE225F25C700C57349 /* YiGouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC198FE225F25C700C57349 /* Build configuration list for PBXNativeTarget "YiGouUITests" */;
+			buildPhases = (
+				FBC198EB225F25C700C57349 /* Sources */,
+				FBC198EC225F25C700C57349 /* Frameworks */,
+				FBC198ED225F25C700C57349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC198F1225F25C700C57349 /* PBXTargetDependency */,
+			);
+			name = YiGouUITests;
+			productName = YiGouUITests;
+			productReference = FBC198EF225F25C700C57349 /* YiGouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC198C5225F25C500C57349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HFX;
+				TargetAttributes = {
+					FBC198CC225F25C500C57349 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					FBC198E3225F25C700C57349 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = FBC198CC225F25C500C57349;
+					};
+					FBC198EE225F25C700C57349 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = FBC198CC225F25C500C57349;
+					};
+				};
+			};
+			buildConfigurationList = FBC198C8225F25C500C57349 /* Build configuration list for PBXProject "YiGou" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC198C4225F25C500C57349;
+			productRefGroup = FBC198CE225F25C500C57349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC198CC225F25C500C57349 /* YiGou */,
+				FBC198E3225F25C700C57349 /* YiGouTests */,
+				FBC198EE225F25C700C57349 /* YiGouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC198CB225F25C500C57349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC198DE225F25C700C57349 /* LaunchScreen.storyboard in Resources */,
+				FBC198DB225F25C700C57349 /* Assets.xcassets in Resources */,
+				FBC198D6225F25C500C57349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC198E2225F25C700C57349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC198ED225F25C700C57349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC198C9225F25C500C57349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC198D9225F25C500C57349 /* YiGou.xcdatamodeld in Sources */,
+				FBC198D3225F25C500C57349 /* ViewController.swift in Sources */,
+				FBC198D1225F25C500C57349 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC198E0225F25C700C57349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC198E9225F25C700C57349 /* YiGouTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC198EB225F25C700C57349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC198F4225F25C700C57349 /* YiGouUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC198E6225F25C700C57349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC198CC225F25C500C57349 /* YiGou */;
+			targetProxy = FBC198E5225F25C700C57349 /* PBXContainerItemProxy */;
+		};
+		FBC198F1225F25C700C57349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC198CC225F25C500C57349 /* YiGou */;
+			targetProxy = FBC198F0225F25C700C57349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC198D4225F25C500C57349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC198D5225F25C500C57349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC198DC225F25C700C57349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC198DD225F25C700C57349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC198F6225F25C700C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC198F7225F25C700C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC198F9225F25C700C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = YiGou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.YiGou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC198FA225F25C700C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = YiGou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.YiGou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBC198FC225F25C700C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = YiGouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.YiGouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiGou.app/YiGou";
+			};
+			name = Debug;
+		};
+		FBC198FD225F25C700C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = YiGouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.YiGouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiGou.app/YiGou";
+			};
+			name = Release;
+		};
+		FBC198FF225F25C700C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = YiGouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.YiGouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YiGou;
+			};
+			name = Debug;
+		};
+		FBC19900225F25C700C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = YiGouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.YiGouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YiGou;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC198C8225F25C500C57349 /* Build configuration list for PBXProject "YiGou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC198F6225F25C700C57349 /* Debug */,
+				FBC198F7225F25C700C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC198F8225F25C700C57349 /* Build configuration list for PBXNativeTarget "YiGou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC198F9225F25C700C57349 /* Debug */,
+				FBC198FA225F25C700C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC198FB225F25C700C57349 /* Build configuration list for PBXNativeTarget "YiGouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC198FC225F25C700C57349 /* Debug */,
+				FBC198FD225F25C700C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC198FE225F25C700C57349 /* Build configuration list for PBXNativeTarget "YiGouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC198FF225F25C700C57349 /* Debug */,
+				FBC19900225F25C700C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBC198D7225F25C500C57349 /* YiGou.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBC198D8225F25C500C57349 /* YiGou.xcdatamodel */,
+			);
+			currentVersion = FBC198D8225F25C500C57349 /* YiGou.xcdatamodel */;
+			path = YiGou.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBC198C5225F25C500C57349 /* Project object */;
+}
